@@ -35,7 +35,7 @@ public class DrawingField extends Settings {
 
     public DrawingField() {
         this.canvas = canvas(); //this.gc gets its value alongside 
-        this.keySpeed = Math.PI/100;
+        this.keySpeed = Math.PI/200;
         this.rotation = new double[]{-0.373, -0.628, 0.0};
         this.zoom = 1; 
         this.canvasColor = Color.valueOf(getCanvasColor()); 
@@ -107,12 +107,13 @@ public class DrawingField extends Settings {
             
             double deltaY = event.getDeltaY();
             
+            
             if (deltaY > 0){
-                this.zoom /= 0.88;
+                this.zoom = this.zoom * 1.2;
             }
 
             else{
-                this.zoom *= 0.88;
+                this.zoom = this.zoom * 0.88;
             }
 
             mainRender.updateZoom(this.zoom);

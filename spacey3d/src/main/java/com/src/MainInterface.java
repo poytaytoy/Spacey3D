@@ -80,7 +80,7 @@ public class MainInterface extends Settings{
         updateButton.setPrefSize(60, 20);
         updateButton.setStyle("-fx-background-color:transparent;" 
             + "-fx-text-fill: white;" 
-            + "-fx-font-size: 12px;" 
+            + "-fx-font-size: 10px;" 
             + "-fx-border-color: #6ab056;"
             + "-fx-border-width: 2px;"
             + "-fx-border-radius: 2px;"
@@ -126,7 +126,7 @@ public class MainInterface extends Settings{
             referenceText.setFill(Color.valueOf(getfontColor())); 
             referenceText.setFont(Font.font("Arial", FontWeight.BOLD, 20));
 
-            Button deleteButton = new Button("Delete"); 
+            Button deleteButton = new Button("Del"); 
             deleteButton.setStyle(
                 "-fx-background-color: #f73939;" + 
                 "-fx-text-fill: white;" + 
