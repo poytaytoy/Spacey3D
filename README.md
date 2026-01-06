@@ -3,17 +3,27 @@
 
 # Spacey3D
 
-This repository contains the code for Spacey3D using JavaFX. Program is still in early development. I have plans to make more changes in the future, so thank you for testing it out!! 
-
-## Purpose 
-
-One of the biggest roadblock In Linear Algebra is having an intuitive visualization of spans, vector spaces, planes, etc. This software aims to ease this by allowing you to graph using spans than equations from traditional graphing calculators. 
+This repository contains the code for Spacey3D that was built using JavaFX and Mavern. One of the biggest roadblock In Linear Algebra is having an intuitive visualization of spans, vector spaces, planes, etc. This software aims to ease this by allowing you to graph using spans than equations from traditional graphing calculators. I primarily used it when I got stuck on visualizing how planes interacted while I was learning linear algebra. Hope this tool be somewhat useful. 
 
 <img src="https://github.com/user-attachments/assets/9e094c24-1243-42a4-ae7f-290552cc09d6" height="500" width="700" />
 
+## Video 
+
 ## Installation 
 
-To run the program, go to CODE >> DOWNLOAD ZIP. Unzip the downloaded folder then run the spacey3d.exe application. 
+First git clone the project.
+
+```
+git clone https://github.com/poytaytoy/Spacey3D.git
+```
+
+From here there are too approaches. From the root directory, if you are on Linux or Mac, install java onto your system and run 
+
+```bash
+java -jar spacey3d-0.0.1.jar
+```
+
+For window users, I have conveninetly placed `spacey3d.exe` to run it. Just click on it. 
 
 ## Support
 

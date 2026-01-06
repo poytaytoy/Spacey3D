@@ -21,7 +21,7 @@ public class App extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        Image icon = new Image(getClass().getResourceAsStream("src/misc/graphic/icon.png"));
+        Image icon = new Image(getClass().getResourceAsStream("/com/src/misc/graphic/icon.png"));
     
         primaryStage.getIcons().add(icon);
         primaryStage.setTitle("Spacey3D");
@@ -32,7 +32,7 @@ public class App extends Application {
         MainInterface mainInterface = new MainInterface();
 
         Scene scene = mainInterface.start();
-        scene.getStylesheets().add(getClass().getResource("src/misc/style.css").toExternalForm());
+        scene.getStylesheets().add(getClass().getResource("/com/src/misc/style.css").toExternalForm());
         
         primaryStage.setScene(scene);
         primaryStage.show();
