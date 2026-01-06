@@ -13,8 +13,8 @@ This repository contains the code for Spacey3D that was built using JavaFX and M
 ## Video 
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=k6rEsuLbfsE">
-    <img src="https://img.youtube.com/vi/k6rEsuLbfsE/0.jpg" alt="watch here">
+  <a href="https://youtu.be/61OGiO5oSQo">
+    <img src="https://youtu.be/61OGiO5oSQo/0.jpg" alt="watch here">
   </a>
 </p>
 
