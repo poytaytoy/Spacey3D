@@ -4,7 +4,7 @@
 # Spacey3D
 
 ## Purpose 
-This repository contains the code for Spacey3D that was built using JavaFX and Mavern. One of the biggest roadblock In Linear Algebra is having an intuitive visualization of spans, vector spaces, planes, etc. This software aims to ease this by allowing you to graph using spans than equations from traditional graphing calculators. I primarily used it when I ragequitted too hard on plane intersections and there was like 0 tools to help me visualize that aside from 3Blue1Brown videos. Hope this tool be somewhat useful. 
+This repository contains the code for Spacey3D that was built using JavaFX and Mavern. One of the biggest roadblock In Linear Algebra is having an intuitive visualization of spans, vector spaces, planes, etc. This software aims to ease this by allowing you to graph using spans than equations from traditional graphing calculators. I primarily used it when I ragequitted too hard on plane intersections and there weren't anything helpful aside from 3Blue1Brown videos. Hope this tool be somewhat useful to others struggling with linear algebra. 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9e094c24-1243-42a4-ae7f-290552cc09d6" height="500" width="700" />
